@@ -7,3 +7,4 @@
 #   Character.create(name: "Luke", movie: movies.first)
 
 Diretorio.create([{name: "root", path: "/", flPublic: true} , {name: "Administração", path: "/root", flPublic: true}])
+DiretoriosMapa.create([{parent: 1, child: 2}}])
